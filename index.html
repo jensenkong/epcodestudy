@@ -16,6 +16,10 @@
         $(".click-btn1").click(function(){
            readData(testDate);
         });
+        $("#videoShow").hide();
+        $("#openVideo").click(function(){
+            $("#videoShow").toggle();
+        });
     });
 </script>
 
@@ -172,8 +176,13 @@
                           图片 （img） <br />
                           超链接 （a） <br />
                           表格 （table） <br />
-                          视频 （embed)    <small>html5更新</small> <br/>
+                          视频 （embed)    <small> <a id="openVideo">html5更新</a></small> <br/>
+                          <video src="images/mov_bbb.mp4"  controls="controls" autoplay="autoplay" id="videoShow"/>
                        </h5>
+                      <h5>强大的html5 音频（audio ），视频（video），拖放（draggable），画布（Canvas)，SVG 指可伸缩矢量图形 </h5>
+                        <h6 class="text-right text-success"><a href="https://www.taobao.com/go/act/snsdkjs/jsbin.php?spm=0.0.0.0.EUcoSP&qq-pf-to=pcqq.group" target="_blank">代码演示</a></h6>
+
+                        <hr width="100%" />
                     </div>
                 </div>
             </div>
