@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"></head>
+    <link rel="stylesheet"  href="CSS/main.css">
+    <script src="js/data.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".click-btn").click(function(){
+            $(this).siblings().addClass("round");
+        });
+        $(".click-btn1").click(function(){
+           readData(testDate);
+        });
+    });
+</script>
+
+<style type="text/css">
+    *{color: #ffffff;}
+</style>
+
+
+</head>
+<body style="background-color:#f8c013;">
+<div id="navbar" style="display: none">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#" >
+                <img alt="Brand" src="images/logo.jpg">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="ep-new-pinpai" style="margin-left:120px">
+            <ul class="nav navbar-nav">
+                <li ><a href="/itemPage.html">衣品天成旗舰店 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">衣品天成女装旗舰店</a></li>
+                <li><a href="#">衣品天成童装旗舰店</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">独立品牌 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li  class="dropdown-header">男装</li>
+                        <li><a href="#">奢步士旗舰店</a></li>
+                        <li><a href="#">KOJO旗舰店</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li  class="dropdown-header">女装</li>
+                        <li><a href="#">米兰达旗舰店</a></li>
+                        <li><a href="#">对白旗舰店</a></li>
+                        <li><a href="#">盛放旗舰店</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <p class="navbar-text navbar-right"> <a href="#" class="navbar-link"> <span class="glyphicon glyphicon-user" style="color:#ffffff">    </span>  Hi',亲</a></p>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">品牌介绍 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">品牌故事</a></li>
+                        <li><a href="#">走秀会场</a></li>
+                        <li><a href="#">大战双十一</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+
+    </div>
+</nav>
+</div>
+
+
+
+<div id="bd">
+    <div class="container">
+        <div class="row">
+        <div class="text-center">
+                <h1 style="color:#ffffff; font-size:45px"><strong>衣品天成代码培训 </strong><small style="color: #ffffff">(JensenKong)</small></h1>
+                <hr  width="100%"  />
+
+        </div>
+        <div class="text-left">
+             <p style="font-family:'微软雅黑', Verdana, Arial, Helvetica, sans-serif; font-size: 50px; color: #FFFFFF; line-height: 50px">
+             <span class="glyphicon glyphicon-send" style="color: rgb(255, 255, 255); font-size: 30px;"> </span>        学习任务与目标</p>
+         </div>
+         <div class="text-left">
+             <ul>
+              <li class="text-info" style="font-size: 30px; line-height: 30px; color:#ffffff">提高自己的职业技能</li>
+              <li class="text-info" style="font-size: 30px; line-height: 30px;color:#ffffff">提高工作效率</li>
+             </ul>
+         </div>
+        </div>
+        <br />
+        <!-- 学习内容-->
+        <div class="row">
+            <p style="font-family:'微软雅黑', Verdana, Arial, Helvetica, sans-serif; font-size: 20px; color: #FFFFFF; line-height: 20px">掌握</p>
+
+            <div class=" col-lg-6 col-md-6" >
+                <div style="width:400px; height:400px;background-color: #1cc9ff;margin-left: auto;margin-right: auto; padding:50px 50px;  box-shadow:10px 14px 12px rgba(7, 7, 11, 0.09) ">
+                    <h1>HTML 部分</h1>
+                    <h3>1.认识html</h3>
+                    <h3>2.html标签与属性</h3>
+                    <h3>3.淘宝常用的html标签</h3>
+                    <h3>4.table img  a  map标签详解</h3>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div style="width:400px; height:400px;background-color: #1cc9ff;margin-left: auto;margin-right: auto; padding:30px 50px;  box-shadow:10px 14px 12px rgba(7, 7, 11, 0.09) ">
+                    <h1>CSS 部分</h1>
+                    <h3>1.认识CSS(CSS3)</h3>
+                    <h3>2.CSS 在html的使用</h3>
+                    <h3>3.CSS样式库</h3>
+                    <h3>4.常用的CSS样式</h3>
+                    <h3>5.<strong>CSS 定位:postion 设置</strong></h3>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div style="width: 100%;height:50px;"></div>
+            </div>
+            <div class="col-md-12">
+
+                <div style="width: 100%;height:250px;background-color: #1cc9ff;margin-left: auto;margin-right: auto; padding:15px 285px;  box-shadow:10px 14px 12px rgba(7, 7, 11, 0.09) ">
+
+                   <h1> 学习淘宝提供的官方 Widget 框架</h1>
+                   <h2>实践1 旋转木马</h2>
+                   <h2>实践2 九宫格开关特效</h2>
+                   <h2>实践3 边框特效</h2>
+
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div style="width: 100%;height:50px;"></div>
+            </div>
+            <div class="col-lg-12 col-md-12 text-center">
+                <a href="https://www.taobao.com/go/act/snsdkjs/jsbin.php?spm=0.0.0.0.EUcoSP&qq-pf-to=pcqq.group" target="_blank">代码演示</a>
+            </div>
+        </div>
+
+         <br />
+        <!--html 学习-->
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="panel panel-success">
+                    <div class="panel-heading">HTML 学习</div>
+                    <div class="panel-body contentfont">
+                      <h2>html 初认识</h2>
+                      <h5>
+                          1.HTML 是用来描述网页的一种语言。<br />
+                          2.HTML 指的是超文本标记语言 (Hyper Text Markup Language)<br />
+                          3.HTML 不是一种编程语言，而是一种标记语言 (markup language)<br />
+                          4.标记语言是一套标记标签 (markup tag)<br />
+                          5.HTML 使用标记标签来描述网页<br />
+                      </h5>
+                        <h2>HTML 标签</h2>
+                        <h5>
+                        1.HTML 标签是由尖括号包围的关键词，比如           <br />
+                        2.HTML 标签通常是成对出现的，比如 <b> 和 </b>     <br />
+                        3.标签对中的第一个标签是开始标签，第二个标签是结束标签  <br />
+                        4.开始和结束标签也被称为开放标签和闭合标签  <br />
+                        </h5>
+
+                        <h6 class="text-right text-success"><a href="https://www.taobao.com/go/act/snsdkjs/jsbin.php?spm=0.0.0.0.EUcoSP&qq-pf-to=pcqq.group" target="_blank">代码演示</a></h6>
+
+                       <h2>HTML标签及淘宝平面设计师专用的标签</h2>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="noticeText1">
+
+</div>
+
+
+</body>
+</html>
